@@ -24,9 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/jvectormaps/jquery-jvectormap-2.0.3.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/jvectormaps/jquery.min.js",
+              "src/assets/jvectormaps/jquery-jvectormap-2.0.3.min.js",
+              "src/assets/jvectormaps/jquery-jvectormap-world-mill.js",
+              "src/assets/jvectormaps/jquery-jvectormap-continents-mill.js",
+              "src/assets/jvectormaps/jquery-jvectormap-na-mill.js"
+            ]
           },
           "configurations": {
             "production": {
